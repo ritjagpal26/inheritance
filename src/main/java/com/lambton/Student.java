@@ -38,13 +38,13 @@ public class Student extends person
     }
     @Override
     public void display() {
-        System.out.printf("Student id :"+getId());
-        System.out.printf("Student First Name :"+getFirstName());
-        System.out.printf("Student Last Name :"+getLastName());
-        System.out.printf("Student Gender :"+getGender());
-        System.out.printf("Student Course :"+getCourseName());
-        System.out.printf("Student Current sem :"+getCurrentSemester());
-        System.out.printf("Date of birth :"+getBirthDate());
+        System.out.println("Student id :"+getId());
+        System.out.println("Student First Name :"+getFirstName());
+        System.out.println("Student Last Name :"+getLastName());
+        System.out.println("Student Gender :"+getGender());
+        System.out.println("Student Course :"+getCourseName());
+        System.out.println("Student Current sem :"+getCurrentSemester());
+        System.out.println("Date of birth :"+getBirthDate());
 
     }
 

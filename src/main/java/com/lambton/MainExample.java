@@ -9,8 +9,10 @@ public class MainExample
         person p1;
 
         Student s1=new Student(1, "Ritik", "Jagpal", LocalDate.now(),"male","MADT",2);
-        p1=s1;
+        //p1=s1;
+      //  p1.display();
+        facullty f1=new facullty(22,"Pritesh","Patel",LocalDate.now(),"Male","HOD","IT",500000);
+        p1=f1;
         p1.display();
-
     }
 }
